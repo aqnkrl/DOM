@@ -1,0 +1,34 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 231, 143);
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    border-color: rgb(236, 150, 64) ;
+    border-style: dashed;
+    border-width: 5px;
+    background: rgb(153, 210, 253);
+    width: 66%;
+}
+
+.images, .choices, .result{
+    width: 100%;
+    text-align: center;
+}
+
+picture img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #f7eec0;
+    padding: 2px;
+    text-align: center;
+}

@@ -24,3 +24,5 @@ inputBlue.addEventListener('change', (e) =>{
     blueColor = e.target.value;
     body.style.backgroundColor = generateColor();
 });
+
+

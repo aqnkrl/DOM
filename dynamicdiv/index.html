@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Dinámico</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        .container{
+            background-color: #e4b6ff;
+            font-family: cooper black;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <label for="ancho">Ancho</label>
+        <input type="range" id="ancho" min="0" max="100">
+        <br>
+        <label for="alto">Alto</label>
+        <input type="range" id="alto" min="0" max="100">
+        <br>
+        <label for="sombra">Sombra</label>
+        <input type="range" id="sombra" min="0" max="100">
+        <br>
+        <label for="radio">Radio</label>
+        <input type="range" id="radio" min="0" max="100">
+    </div>
+    <script src="./app.js"> </script>
+</body>
+</html>
