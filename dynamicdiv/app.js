@@ -14,7 +14,7 @@ altoInput.addEventListener('input', function() {
 });
 
 sombraInput.addEventListener('input', function() {
-    container.style.boxShadow = `0px 0px ${sombraInput.value}% rgba(0, 0, 0, 0.5)`;
+    container.style.boxShadow = `0px 0px ${sombraInput.value}px rgba(0, 0, 0, 0.5)`;
 });
 
 radioInput.addEventListener('input', function() {

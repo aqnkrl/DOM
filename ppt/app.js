@@ -1,7 +1,7 @@
 const images = document.querySelectorAll('.images img');
 const imgUser = document.querySelector('#choiceuser');
 const imgCompu = document.querySelector('#choicecompu');
-const h2Result = document.querySelector('h2 ');
+const h2Result = document.querySelector('h2');
 
 const choices = ['piedra', 'papel', 'tijeras'];
 
