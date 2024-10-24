@@ -16,6 +16,32 @@
             display: flex;
             flex-direction: column;
         }
+        a {
+            text-decoration: none;
+            color: #a2067e;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            display: inline-block;
+            padding: 20px 10px;
+            font-size: 16px;
+            border: none;
+            background-color: #f7d0ee;
+            font-weight: bold;
+            text-decoration: none;
+            font-family: cooper black;
+            }
+
+
+            button:hover {
+    background-color: #e9c8fc;
+}
+
+a:hover {
+    color: #4c0674;
+}
     </style>
 </head>
 <body>
@@ -28,6 +54,7 @@
         <input type="range" id="blue"  min="0" max="255">
         <h2>Color: <span></span></h2>
     </div>
+    <button class="btn1"><a href="/index.html">Inicio</a></button>
     <script src="./app.js"></script>
 </body>
 </html>

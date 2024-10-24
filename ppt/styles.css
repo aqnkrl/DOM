@@ -27,6 +27,33 @@ picture img{
     border-radius: 50%;
 }
 
+a {
+    text-decoration: none;
+    color: #a2067e;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #f7d0ee;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: cooper black;
+    }
+
+
+    button:hover {
+background-color: #e9c8fc;
+}
+
+a:hover {
+color: #4c0674;
+}
+
 footer {
     background-color: #f7eec0;
     padding: 2px;

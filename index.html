@@ -4,8 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Projects</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            align-items: start; /* Alinea los elementos hacia arriba */
+            justify-items: center; /* Centra horizontalmente */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 50px; /* Añade un pequeño margen superior */
+        }
+        h1 {
+            text-align: center;
+            font-family: cooper black;
+            font-size: 50px;
+            border: dashed;
+            border-color: #faeca6;
+        }
+        footer {
+            background-color: #fbf4cf;
+            padding: 5px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            text-decoration: none;
+            color: #a2067e;
+        }
+        button {
+            width: 200px;
+            height: 50px;
+            display: inline-block;
+            padding: 20px 10px;
+            font-size: 16px;
+            border: none;
+            background-color: #f7d0ee;
+            font-weight: bold;
+            font-family: cooper black;
+            margin: 10px 0; /* Agrega margen vertical entre botones */
+        }
+        button:hover {
+            background-color: #e9c8fc;
+        }
+        a:hover {
+            color: #4c0674;
+        }
+
+        /* Estilo para el contenedor de los botones en dos columnas */
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+            gap: 20px; /* Espacio entre botones */
+            justify-items: center; /* Centra los botones horizontalmente */
+        }
+    </style>
 </head>
 <body>
     <h1>Ejercicios para practicar DOM</h1>
+
+    <div class="button-container">
+        <button class="btn1"><a href="./todoapp/index.html">App de tareas</a></button>
+        <button class="btn1"><a href="./ppt/index.html">Piedra Papel o Tijeras</a></button>
+        <button class="btn1"><a href="./dynamicdiv/index.html">Div Dinamico</a></button>
+        <button class="btn2"><a href="./colorsbg/index.html">Colores RGB</a></button>
+        <button class="btn2"><a href="./colorsinput/index.html">Colores Input</a></button>
+        <button class="btn1"><a href="./animado/index.html">Figura circulos</a></button>
+        <button class="btn1"><a href="./animado/index2.html">Figura cuadrado</a></button>
+        <button class="btn1"><a href="./animado/index1.html">Figura circulo</a></button>
+        <button class="btn2"><a href="./dibujo/index.html">Dibujo Frankenstein</a></button>
+        <button class="btn2"><a href="./canvas/index.html">Dibujo Fantasmas</a></button>
+        <button class="btn2"><a href="./canvas/index2.html">Dibujo Snoopy</a></button>
+        <button class="btn2"><a href="./game/index.html">Juego de Bolita</a></button>
+    </div>
+    
+    <footer>
+        <p>copyright &copy;2024 Karla López Aquino</p>
+    </footer>
 </body>
 </html>
